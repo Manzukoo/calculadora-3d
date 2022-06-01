@@ -1,0 +1,17 @@
+.clear {
+    height: 80px;
+    margin-top: 8px;
+}
+
+.clear .btn {
+    font-size: 1.6em;
+    background: rgba(43, 14, 14, 0.242);
+    border-color: rgba(85, 7, 7, 0.242);
+    border-radius: 9px;
+}
+
+.clear:hover .btn {
+    transform: translateX(-2px) translateY(5px) scale(1.1);
+    box-shadow: 5px 5px 10px 0 rgba(86, 11, 17, 0.09);
+    transition: transform .2s, box-shadow .2s;
+}

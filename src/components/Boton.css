@@ -1,0 +1,41 @@
+.btn-contenedor {
+    flex: 1 1;
+    height: 83px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+}
+
+.btn {
+    background: rgba(87, 93, 255, 0.155);
+    border: 2px solid rgba(87, 93, 255, 0.273);
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 0 rgba(87, 93, 255, 0.074);
+    transition: transform .1s, box-shadow .1s;
+}
+
+.operador .btn {
+    background: rgba(0, 0, 0, 0.074);
+}
+
+.btn-contenedor:hover .btn {
+    transform: translateX(-10px) translateY(10px) scale(1.2);
+    box-shadow: 5px 5px 10px 0 rgba(87, 93, 255, 0.074);
+    transition: transform .2s, box-shadow .2s;
+}
+
+.btn-contenedor:active .btn {
+    transition: transform .1s, box-shadow .1s;
+    transform: translateX(-11px) translateY(11px) scale(1.25);
+}
