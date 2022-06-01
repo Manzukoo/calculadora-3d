@@ -42,6 +42,16 @@ function App() {
         </div>
         <div className='fila'>
           <Boton
+            evento={agregarInput}>4</Boton>
+          <Boton
+            evento={agregarInput}>5</Boton>
+          <Boton
+            evento={agregarInput}>6</Boton>
+          <Boton
+            evento={agregarInput}>-</Boton>
+        </div>
+        <div className='fila'>
+          <Boton
             evento={agregarInput}>7</Boton>
           <Boton
             evento={agregarInput}>8</Boton>
